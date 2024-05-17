@@ -56,7 +56,7 @@ jobs:
             
       - name: Display Website URL
         run: |
-          echo "Your website is hosted at http://sjj-github-actions-website.s3-website-us-east-1.amazonaws.com"
+          echo "Your static website is hosted at http://sjj-github-actions-website.s3-website-us-east-1.amazonaws.com"
 
       - name: Deploy static site to S3 bucket
         run: |
